@@ -1,5 +1,6 @@
 package net.fabricmc.repeatrecipe.mixin;
 
+import net.fabricmc.repeatrecipe.RepeatRecipe;
 import net.fabricmc.repeatrecipe.mixin.accessor.AbstractFurnaceScreenAccessor;
 import net.fabricmc.repeatrecipe.mixin.accessor.CraftingScreenAccessor;
 import net.fabricmc.repeatrecipe.mixin.accessor.RecipeBookWidgetAccessor;
@@ -24,8 +25,8 @@ public class ScreenMixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(III)Z", cancellable = true)
     public void keyPressed(int keyCode, int scanCode, int modifiers, CallbackInfoReturnable<Boolean> info) {
 
-        // space
-        if (keyCode != 32) {
+        // default r
+        if (RepeatRecipe.keyBinding == null || !RepeatRecipe.keyBinding.matchesKey(keyCode, scanCode)) {
             return;
         }
 
