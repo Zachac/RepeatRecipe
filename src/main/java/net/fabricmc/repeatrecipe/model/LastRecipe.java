@@ -8,6 +8,7 @@ import java.util.Objects;
 public class LastRecipe {
 
     public static LastRecipe instance;
+    public static LastRecipe lastCheckedRecipe;
 
     public final Recipe<?> recipe;
     public final Class<? extends Screen> screenClazz;

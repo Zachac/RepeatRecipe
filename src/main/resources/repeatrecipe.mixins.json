@@ -7,7 +7,9 @@
   ],
   "client": [
     "ScreenMixin",
-    "ClientPlayerInteractionManagerMixin"
+    "ClientPlayerInteractionManagerMixin",
+    "CraftingResultInventoryMixin",
+    "CraftingResultSlotMixin"
   ],
   "injectors": {
     "defaultRequire": 1
