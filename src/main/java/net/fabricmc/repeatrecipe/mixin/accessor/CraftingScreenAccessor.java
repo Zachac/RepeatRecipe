@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin.accessors;
+package net.fabricmc.repeatrecipe.mixin.accessor;
 
 import net.minecraft.client.gui.screen.ingame.CraftingScreen;
 import net.minecraft.client.gui.screen.recipebook.RecipeBookWidget;

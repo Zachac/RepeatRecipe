@@ -1,9 +1,9 @@
-package net.fabricmc.example.mixin;
+package net.fabricmc.repeatrecipe.mixin;
 
-import net.fabricmc.example.LastRecipe;
-import net.fabricmc.example.mixin.accessors.AbstractFurnaceScreenAccessor;
-import net.fabricmc.example.mixin.accessors.CraftingScreenAccessor;
-import net.fabricmc.example.mixin.accessors.RecipeBookWidgetAccessor;
+import net.fabricmc.repeatrecipe.mixin.accessor.AbstractFurnaceScreenAccessor;
+import net.fabricmc.repeatrecipe.mixin.accessor.CraftingScreenAccessor;
+import net.fabricmc.repeatrecipe.mixin.accessor.RecipeBookWidgetAccessor;
+import net.fabricmc.repeatrecipe.model.LastRecipe;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import org.apache.logging.log4j.LogManager;

@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.fabricmc.repeatrecipe.model;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.recipe.Recipe;

@@ -1,13 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.fabricmc.repeatrecipe.mixin.accessor",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ScreenMixin",
-    "ClientPlayerInteractionManagerMixin"
+    "RecipeBookWidgetAccessor",
+    "CraftingScreenAccessor",
+    "AbstractFurnaceScreenAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

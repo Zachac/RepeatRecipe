@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package net.fabricmc.repeatrecipe.mixin;
 
-import net.fabricmc.example.LastRecipe;
+import net.fabricmc.repeatrecipe.model.LastRecipe;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerInteractionManager;
 import net.minecraft.recipe.Recipe;

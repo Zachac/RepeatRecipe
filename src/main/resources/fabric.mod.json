@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "repeatrecipe",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Repeat Recipe",
+  "description": "Adds a keybind to repeat the last recipe clicked on in the recipe book.",
   "authors": [
-    "Me!"
+    "zachac"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "email": "zachac96@gmail.com",
+    "sources": "https://github.com/Zachac/RepeatRecipe"
   },
 
   "license": "CC0-1.0",
@@ -20,8 +20,8 @@
   "entrypoints": {
   },
   "mixins": [
-    "modid.mixins.json",
-    "modid.accessors.json"
+    "repeatrecipe.mixins.json",
+    "repeatrecipe.accessors.json"
   ],
 
   "depends": {
